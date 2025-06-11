@@ -6,7 +6,7 @@ from vectorstore_manager import get_or_create_vectorstore
 warnings.filterwarnings("ignore", category=DeprecationWarning, module='langchain')
 warnings.filterwarnings("ignore", category=FutureWarning, module='huggingface_hub')
 
-genai.configure(api_key='AIzaSyCAJWgPhXDT2FjTR9rB4dpLhHoZ9_F7goI')
+genai.configure(api_key='YOUR_API_KEY')
 
 def generate_with_retrieval(prompt, vectordb):
     prompt += " (Answer should be based only on Mental Health.)"  # Force India-specific responses
