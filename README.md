@@ -1,4 +1,4 @@
-# 🧠 MentalHealth-GPT
+# 🧠 Mann- A Mental Health Chatbot
 
 **MentalHealth-GPT** is a conversational AI chatbot designed to assist users with mental health-related queries. It uses **LangChain** and **Google's Gemini-Pro** via the `langchain-google-genai` library. The bot is friendly, non-abusive, and keeps track of past conversations for contextual responses.
 
